@@ -1,0 +1,92 @@
+## Ignore Visual Studio user-specific files
+
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## Ignore build results
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Keep configuration files tracked
+
+#! Do not ignore launchSettings.json or appsettings.json
+
+## Ignore Rider / JetBrains
+
+.idea/
+*.sln.iml
+
+## Ignore Visual Studio Code
+
+.vscode/
+.history/
+
+## Ignore test results
+
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+## Ignore NuGet Packages
+
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+packages/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+
+## Ignore .NET Core / ASP.NET generated files
+
+project.fragment.lock.json
+artifacts/
+*.dbmdl
+*.bak
+*.sql
+*.ldf
+*.mdf
+
+## Ignore publish output
+
+publish/
+wwwroot/dist/
+node_modules/
+bower_components/
+
+## Ignore environment & secrets
+
+.env
+.env.*
+secrets.json
+
+## Ignore temporary files
+
+*.tmp
+*.temp
+*.log
+*.pid
+*.seed
+*.coverage
+*.DS_Store
+Thumbs.db
+
+## Blazor cache (safe to regenerate)
+
+obj/Debug/net*/staticwebassets.build.json
+obj/Debug/net*/staticwebassets.development.json
+wwwroot/_framework/
+wwwroot/_content/
